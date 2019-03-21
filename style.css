@@ -9,9 +9,11 @@
     font-size:170px;
     margin: auto;
     /* font-family: 'Sniglet', cursive; */
-    color: pink;
-    font-family: 'Bungee Shade', cursive;
+    color: #D36E2D;
+    font-family: 'Lobster', cursive;
     text-align: center;
+    padding-top: 150px;
+    padding-bottom: 100px;
   }
   .thin-black-border {
     border-color: black;
@@ -26,11 +28,18 @@
    text-align: center;
    font-size: 100px;
   }
+  h3{
+    font-size: 24px;
+    width: 100%
+    padding-right: 5px;
+    color:black;
+    background-color: #008080;
+  }
 
   a{
     color: white;
     font-family: 'Open Sans', sans-serif;
-    text-decoration: underline;
+    text-decoration: none;
   }
   .back-ground{
     background-color: #78AF9F /* rgb(rgb(255, 0, 0);) */
@@ -49,6 +58,22 @@
       font-family: 'Sniglet', cursive;
       line-height: 30px;
     }
+  #icon {
+    text-align: center;
+}
+  #icon ul{
+    text-align: center;
+  }
+  #icon ul li{
+    display: inline-table;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+  }
+  .USTH{
+    color: black;
+    text-decoration: none;
+  }
   .link{
     color: black;
   }
@@ -58,6 +83,17 @@
   .larger-image {
     width: 100%
 }
+.smaller-image{
+    width: 64px;
+    height: 64px;
+}
+.fontcute:hover{
+  background-color: white;
+  background-size: contain;
+  color: gray;
+  transition: all ease-in-out 300ms;
+}
+
 
   }
   #video{
@@ -97,9 +133,11 @@ li{
 }
 .logo{
   float: left;
-  width: 25%;
+  width: 30%;
   margin-left: 30px;
-  position: relative;
+  margin-top: -15px;
+
+
 
 }
 
@@ -109,25 +147,29 @@ li{
     display: flex
   }
 a:hover { /* truong hop 2 cua link */
-  color: #F77E69;
-  text-decoration: none;
+  color: pink;
+  text-decoration: underline;
 }
 #navbar{
   position: fixed;
   top: 0px;
   left: 0px;
   width: 100%;
-  padding: 20px;
+  padding: 0px;
   background-color: #5F5F5F;
 
 }
 nav li{
   float: left;
   display: inline-table;
-  margin-right: 60px;
-  margin-bottom: auto;
-  font-size: 25px;
+  margin-right: 170px;
+  margin-bottom: 5px;
+  margin-top: 20px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 45px;
   text-align: center;
+
 }
 nav ul{
   margin:20px;
