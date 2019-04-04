@@ -22,12 +22,12 @@ div {
   }
   50% {
     background-color: green;
-      top:  350px;
+      top:  400px;
 
   }
   100% {
     background-color: yellow;
-    top:   400px;
+    top:   500px;
 
   }
 }
