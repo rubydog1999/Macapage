@@ -17,17 +17,17 @@ div {
 @keyframes rainbow {
   0% {
     background-color: blue;
-      top: 580px;
+      top: 300px;
 
   }
   50% {
     background-color: green;
-      top:  670px;
+      top:  350px;
 
   }
   100% {
     background-color: yellow;
-    top:   750px;
+    top:   400px;
 
   }
 }
