@@ -13,6 +13,45 @@
             "properties": {
                 "name": "Hotel du Parc Hanoi"
             }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.0244844,
+                    105.8104816
+                ]
+            },
+            "properties": {
+                "name": "Khách sạn Bảo Sơn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.0267067,
+                    105.8170094
+                ]
+            },
+            "properties": {
+                "name": "Tictak Coffee Ngọc Khánh"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    21.01971899999999,
+                    105.8174144
+                ]
+            },
+            "properties": {
+                "name": "Miwa Japanese Restaurant"
+            }
         }
     ]
 }
