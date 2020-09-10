@@ -1,34 +1,60 @@
-{ "type": "FeatureCollection",
-  "features": [
-    { "type": "Feature",
-      "geometry": {"type": "Point", "coordinates": [102.0, 0.5]},
-      "properties": {"prop0": "value0"}
-      },
-    { "type": "Feature",
-      "geometry": {
-        "type": "LineString",
-        "coordinates": [
-          [102.0, 0.0], [103.0, 1.0], [104.0, 0.0], [105.0, 1.0]
-          ]
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.8419707,
+                    21.0178944
+                ]
+            },
+            "properties": {
+                "name": "Hotel du Parc Hanoi"
+            }
         },
-      "properties": {
-        "prop0": "value0",
-        "prop1": 0.0
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.8104816,
+                    21.0244844
+                    
+                ]
+            },
+            "properties": {
+                "name": "Khách sạn Bảo Sơn"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.8170094,
+                    21.0267067
+                  
+                ]
+            },
+            "properties": {
+                "name": "Tictak Coffee Ngọc Khánh"
+            }
+        },
+        {
+            "type": "Feature",
+            "geometry": {
+                "type": "Point",
+                "coordinates": [
+                    105.8174144,
+                    21.01971899999999
+                    
+                ]
+            },
+            "properties": {
+                "name": "Miwa Japanese Restaurant"
+            }
         }
-      },
-    { "type": "Feature",
-       "geometry": {
-         "type": "Polygon",
-         "coordinates": [
-           [ [100.0, 0.0], [101.0, 0.0], [101.0, 1.0],
-             [100.0, 1.0], [100.0, 0.0] ]
-           ]
-
-       },
-       "properties": {
-         "prop0": "value0",
-         "prop1": {"this": "that"}
-         }
-       }
     ]
-  }
+}
